@@ -1,0 +1,12 @@
+---
+# defaults file for common
+
+my_common_timezone: 'Europe/Berlin'
+
+my_common_packages:
+  - git
+  - curl
+  - build-essential
+  - htop
+  - zsh
+  - wget

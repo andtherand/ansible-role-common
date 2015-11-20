@@ -1,0 +1,19 @@
+---
+# tasks file for common
+
+- name: "common > update apt cache"
+  apt: update_cache=yes
+  sudo: yes
+  tags:
+    - common-setup
+    - common
+    - packages-install
+
+- name: "common > install packages"
+  apt: pkg={{ item }}
+  with_items: my_common_packages
+  sudo: yes
+  tags:
+    - common-setup
+    - common
+    - packages-install
