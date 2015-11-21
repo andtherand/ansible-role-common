@@ -10,12 +10,12 @@ It's a simple role to be applied to all hosts. It just installs a bunch of packa
 
 The following variables are available:
 
-```
+```yaml
 my_common_timezone: 'Europe/Berlin'
 ```
 Sets the timezone.
 
-```
+```yaml
 my_common_packages:
     - git
     - curl
@@ -40,7 +40,7 @@ The following tags are available:
 
 ```yaml
 ---
-//#playbook.yml
+#playbook.yml
 
 - name: common-setup
   hosts: all
