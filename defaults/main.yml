@@ -3,7 +3,11 @@
 
 my_common_timezone: 'Europe/Berlin'
 
-my_common_packages:
+my_suse_common_packages:
+  - zsh
+  - htop
+
+my_ubuntu_common_packages:
   - git
   - curl
   - build-essential

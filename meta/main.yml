@@ -11,6 +11,10 @@ galaxy_info:
     - name: Ubuntu
       versions:
       - trusty
+   - name: opensuse
+     versions:
+       - 13.2
+
     categories:
     - development
     - system
