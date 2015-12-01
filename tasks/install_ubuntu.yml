@@ -1,7 +1,9 @@
 ---
 
 - name: "common > Ubuntu > update apt cache"
-  apt: update_cache=yes
+  apt: >
+    update_cache=yes
+    cache_valid_time={{ my_common_cache_ttl }}
   sudo: yes
   tags:
     - common-setup
