@@ -17,8 +17,9 @@ galaxy_info:
       - 13.2
 
     categories:
-    - development
-    - system
+      - development
+      - system
 
 dependencies:
-  - { role: ANXS.timezone, timezone_zone: "{{ my_common_timezone }}" }
+  - role: ANXS.timezone
+    timezone_zone: "{{ my_common_timezone }}"
