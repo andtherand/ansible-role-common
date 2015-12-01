@@ -3,6 +3,8 @@
 
 my_common_timezone: 'Europe/Berlin'
 
+my_common_cache_ttl: 3600
+
 my_suse_common_packages:
   - zsh
   - htop
