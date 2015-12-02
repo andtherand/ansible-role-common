@@ -23,3 +23,4 @@ galaxy_info:
 dependencies:
   - role: ANXS.timezone
     timezone_zone: "{{ my_common_timezone }}"
+    when: ansible_distribution == 'Ubuntu' or ansible_distribution == 'Debian'
