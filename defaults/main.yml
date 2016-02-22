@@ -16,3 +16,4 @@ my_ubuntu_common_packages:
   - htop
   - zsh
   - wget
+  - python-pip
