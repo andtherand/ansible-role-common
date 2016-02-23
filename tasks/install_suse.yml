@@ -5,7 +5,7 @@
     name={{ item }}
     state=present
   with_items: my_suse_common_packages
-  sudo: yes
+  become: yes
   tags:
     - common-setup
     - common
