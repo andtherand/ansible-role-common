@@ -13,7 +13,9 @@
 
 - name: "common > Ubuntu > install packages"
   apt: pkg={{ item }}
-  with_items: "{{ my_ubuntu_common_packages }}"
+  with_items:
+    - "{{ my_ubuntu_common_packages }}"
+    - "{{ my_ubunutu_additional_packages }}"
   become: yes
   become_method: sudo
   tags:

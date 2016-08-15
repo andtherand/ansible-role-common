@@ -17,3 +17,5 @@ my_ubuntu_common_packages:
   - zsh
   - wget
   - python-pip
+
+my_ubunutu_additional_packages: []
