@@ -15,7 +15,7 @@
   apt: pkg={{ item }}
   with_items:
     - "{{ my_ubuntu_common_packages }}"
-    - "{{ my_ubunutu_additional_packages }}"
+    - "{{ my_ubuntu_additional_packages }}"
   become: yes
   become_method: sudo
   tags:
