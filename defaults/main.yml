@@ -18,4 +18,4 @@ my_ubuntu_common_packages:
   - wget
   - python-pip
 
-my_ubunutu_additional_packages: []
+my_ubuntu_additional_packages: []
